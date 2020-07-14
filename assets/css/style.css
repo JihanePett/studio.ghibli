@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900|Roboto:100,200,300,400,500,600,700");
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #1a1919ad;
+}
+
+/*----------------------------------------------------logo */
+.logo-img {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*----------------------------------------------------Navigation*/
+.bg-light {
+  border: none;
+}
+
+.navbar-light .navbar-brand {
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand:hover {
+  color: #1a1919ad;
+}
+
+ul.navbar-nav.mr-auto {
+  display: flex;
+  margin: 0 auto;
+}
+
+.nav-item {
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 2px;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding-left: 50px;
+}
+
+.navbar-light .navbar-nav .nav-item:hover {
+  border-bottom: 1px solid rgb(248, 130, 238);
+}
+
+.form-control:focus {
+  border-color: rgb(248, 130, 238)45;
+  box-shadow: 0 0 0 0.2rem rgba(248, 130, 238, 0.25);
+}
+
+/*----------------------------------------------------Footer*/
+.social-links {
+  font-size: 40px;
+  margin-right: 20px;
+  margin-top: 15px;
+  color: #1a1919ad;
+}
+
+.social-links:hover {
+  color: rgb(248, 130, 238);
+}
+
+/*----------------------------------------------------Footer image*/
+.container-fluid {
+  padding: 0;
+}
+
+.col-12 {
+  padding: 0;
+}
+
+.hero-img {
+  height: 40vw;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 2%;
+}
+
+/*----------------------------------------------------contact-us*/
+.h5-contact {
+  font-family: "Roboto", sans-serif;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.center-form {
+  padding-top: 10px;
+  padding-bottom: 60px;
+  margin: 0 auto;
+  max-width: 50%;
+}
+
+textarea.form-control {
+  margin-bottom: 20px;
+}
+
+/*----------------------------------------------------Jumbotron*/
+.jumbotron{
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: rgba(248, 130, 238, 0.25);
+}
+
+.display-4 {
+    color: #1a1919ad;
+}
+
+.lead {
+    margin-top: 20px;
+}
+
+/*----------------------------------------------------API data*/
+.film-url{
+  font-weight: 200;
+  font-size: 16px;
+  font-family: Montserrat, sans-serif;
+  color: #1a1919ad;
+}
+
+.film-url:hover{
+  text-decoration: none;
+  color: rgb(248, 130, 238);
+}
+
+table {
+  border: 1px solid rgb(248, 130, 238);
+  margin-bottom: 10px;
+}
+
+th {
+  font-weight: bold;
+  text-align: center;
+}
+
+tr {
+  height: 100px;
+}
+
+
+/*----------------------------------------------------Media*/
+@media screen and (max-width: 540px) {
+  .navbar-light .navbar-nav .nav-item:hover {
+    border-bottom: 0;
+  }
+}
