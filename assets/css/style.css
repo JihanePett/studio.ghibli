@@ -107,6 +107,8 @@ textarea.form-control {
 
 .display-4 {
     color: #1a1919ad;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .lead {
@@ -114,7 +116,7 @@ textarea.form-control {
 }
 
 /*----------------------------------------------------API data*/
-.film-url{
+.film-url, td {
   font-weight: 200;
   font-size: 16px;
   font-family: Montserrat, sans-serif;
@@ -137,7 +139,7 @@ th {
 }
 
 tr {
-  height: 100px;
+  height: 20px;
 }
 
 
