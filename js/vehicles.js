@@ -1,5 +1,5 @@
 var xhr = new XMLHttpRequest();
-var url = "https://ghibliapi.herokuapp.com/people/";
+var url = "https://ghibliapi.herokuapp.com/vehicles/";
 
 xhr.onreadystatechange=function() {
   if (this.readyState == 4 && this.status == 200) {
@@ -18,14 +18,14 @@ function myFunction(response) {
     out += "<tr><td>" + 
     arr[i].name +
     "<td><td>" +
-    arr[i].gender +
+    arr[i].description +
     "<td><td>" +
-    arr[i].age +
+    arr[i].vehicle_class +
     "</td><td>" +
     '<a class="film-url" target="_blank" href="' + arr[i].url + '">' + arr[i].url + '</a>' +
     "</td></tr>";
   }
   out += "</table>";
-  document.getElementById("people").innerHTML = out;
+  document.getElementById("vehicles").innerHTML = out;
 
 }
