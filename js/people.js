@@ -12,7 +12,7 @@ xhr.send();
 function myFunction(response) {
   var arr = JSON.parse(response);
   var i;
-  var out = "<table>";
+  var out = "<table class='table-responsive'>";
   out +=
     "<tr><th>Name</th><th>Gender</th><th>Eye Color</th><th>Hair Color</th><th>Age</th><th>Films I am in</th><th>Link to the character</th></tr>";
 
@@ -29,13 +29,13 @@ function myFunction(response) {
       "</td><td>" +
       arr[i].age +
       "</td><td>" +
-      '<a class="film-url" target="_blank" href="' +
+      '<a class="people-url" target="_blank" href="' +
       arr[i].url +
       '">' +
       arr[i].films +
       "</a>" +
       "</td><td>" +
-      '<a class="film-url" target="_blank" href="' +
+      '<a class="people-url" target="_blank" href="' +
       arr[i].url +
       '">' +
       arr[i].url +
@@ -45,3 +45,4 @@ function myFunction(response) {
   out += "</table>";
   document.getElementById("people").innerHTML = out;
 }
+
