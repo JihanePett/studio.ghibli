@@ -17,14 +17,10 @@ body {
   border: none;
 }
 
-.navbar-light .navbar-brand {
+.navbar-light {
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 2px;
-}
-
-.navbar-light .navbar-brand:hover {
-  color: #1a1919ad;
 }
 
 ul.navbar-nav.mr-auto {
@@ -144,7 +140,9 @@ table {
 th {
   font-weight: bold;
   text-align: center;
-  position: sticky;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
 }
 
 tr {

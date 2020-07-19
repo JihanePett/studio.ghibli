@@ -6,6 +6,7 @@ xhr.onreadystatechange = function() {
         var data = JSON.parse(this.responseText);
         myFunction(data);
     }
+  else{console.log("Sorry try again later")};    
 };
 xhr.open("GET", url, true);
 xhr.send();

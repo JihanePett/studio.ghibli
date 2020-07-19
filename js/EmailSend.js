@@ -7,10 +7,10 @@ function sendMail(contactForm) {
     })
     .then(
       function (response) {
-        console.log("SUCCESS", response);
+        console.log("Your mail was send successfully", response);
       },
       function (error) {
-        console.log("ERROR", error);
+        console.log("Sorry try again later", error);
       }
     );
   return false;
