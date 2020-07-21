@@ -4,8 +4,7 @@ var url = "https://ghibliapi.herokuapp.com/vehicles/";
 xhr.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
     myFunction(this.responseText);
-  }
-  else{console.log("Sorry try again later")};  
+  } 
 };
 xhr.open("GET", url, true);
 xhr.send();
